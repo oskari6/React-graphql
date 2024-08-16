@@ -110,11 +110,6 @@ export default function AddOrder({ customerId }: AppProps) {
               />
             </div>
             <br />
-            {/*
-            <button disabled={createCustomerLoading ? true : false}>
-              Add Customer
-            </button>
-            {createCustomerError ? <p>Error creating customer</p> : null}*/}
             <button disabled={loading ? true : false}>Add order</button>
           </form>
           {error ? <p>Something went wrong</p> : null}
